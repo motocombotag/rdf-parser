@@ -1,21 +1,26 @@
 ## Getting started
 
-### Run `npm install`
+### Run packages
+```
+npm install
+```
 
-### Put contents of `rdf-files.zip` into `cache` folder
+### Copy RDF files
+
+Put contents (`cache` folder) of `rdf-files.zip` into the project folder.
 
 ### Migrate DB
 
 - add DB details to `config/config.json` and `.env`
 - run `npm run migrate` to add `Meta` table, which will store all the book meta data
 
-## Run the script
+### Run the script
 
 ```
 npm start
 ```
 
-## Run the test
+### Run tests
 
 ```
 npm test
