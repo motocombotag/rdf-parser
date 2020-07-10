@@ -1,6 +1,6 @@
 ## Getting started
 
-### Run packages
+### Install packages
 ```
 npm install
 ```
